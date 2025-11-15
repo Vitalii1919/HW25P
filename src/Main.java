@@ -10,18 +10,20 @@ public class Main {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
-            int a = 55000;
-            byte b = 100;
-            short c = 3577;
-            long d = 500000000L;
-            float f = 4.7500021f;
-            double j = 6.5786999123456789;
-            System.out.println("Значение переменной a c типом int равно" + a );
-            System.out.println("Значение переменной b с типом byte равно" + b );
-            System.out.println("Значение перемнной c с типом short равно" + c );
-            System.out.println("Значечение переменной d с типом long"+ d );
-            System.out.println("Значение переменной f с типом float" + f );
-            System.out.println("Значение переменной j с типом double"+ j );
+            int a = 45000;
+            byte  b= 127;
+            short c = 3277;
+            long d = 400000000L;
+            float f = 3.7500021f;
+            double j = 3.5786999123456789;
+            System.out.println("Значение переменной a с типом int равно " + a );
+            System.out.println("Значение переменной b с типом  byte  равно " + b );
+            System.out.println("Значение переменной  c с типом  short   равно " + c  );
+            System.out.println("Значение переменной  d с типом  long   равно  " + d);
+            System.out.println("Значение переменной  f с типом   float    равно  " + f);
+            System.out.println("Значение переменной  j с типом  double   равно  " + j );
+
+
 
             int h = 27897 ;
             byte  k= 67 ;
@@ -38,6 +40,7 @@ public class Main {
             System.out.println("Значение переменной  p с типом  double   равно  " + p );
             System.out.println("Значение переменной  q с типом  short   равно " + q  );
 
+
             short totalNumberOfSheets = 480;
             byte numberОfLyudmilaPavlovnaStudents = 23;
             byte numberОfAnnaSergeevnaStudents = 27;
@@ -45,6 +48,7 @@ public class Main {
             int totalStudents = numberОfLyudmilaPavlovnaStudents + numberОfAnnaSergeevnaStudents + numberОfEkaterinaAndreevnaStudents;
             int numberOfSheetsForEachStudent = totalNumberOfSheets / totalStudents;
             System.out.println("На каждого ученика рассчитано  " +    numberOfSheetsForEachStudent + " листов бумаги"  );
+
 
             byte capacityOfBottleMakingMachineIn2Minutes = 16;
             byte t1 = 20;
@@ -64,6 +68,9 @@ public class Main {
             System.out.println("За  43200 минут (30 дней) машина произвела  " +   capacityOfBottleMakingMachineIn43200Minutes  +
                     " штук бутылок" );
 
+
+
+
             Byte  totalNumberOfPaintCansForClasses = 120;
             Byte quantityOfWhitePaintPerClass=2;
             Byte quantityOfBrownPaintPerClass =4;
@@ -73,6 +80,8 @@ public class Main {
             int totalAmountOfBrownPaintForAllClasses =   numberOfClasses *  quantityOfBrownPaintPerClass;
             System.out.println("В школе, где " + numberOfClasses  +  " классов, нужно " + totalAmountOfWhitePaintForAllClasses
                     + " банок белой краски и "  + totalAmountOfBrownPaintForAllClasses + " банок коричневой краски");
+
+
 
             Byte bananas = 5;
             Byte gramsInOneBanana = 80;
@@ -100,6 +109,7 @@ public class Main {
             System.out.println("Вес (количество граммов) такого спортзавтрака составляет " + totalGramsInBreakfast + " граммов");
             System.out.println("Вес (количество килограммов) такого спортзавтрака составляет " + totalKgInBreakfast  + " килограмм");
 
+
             Byte  totalNumberOfKgForWeightLoss =7;
             short totalNumberOfGramsInKilogram = 1000;
             int totalGramsForWeightLoss = 7*1000;
@@ -116,25 +126,6 @@ public class Main {
             int numberOfDaysToLoseWeightOnAverage = sumOfDaysForCalculatingTheArithmeticMean / numberOfWaysToLoseWeight;
             System.out.println(numberOfDaysToLoseWeightOnAverage + " дней уйдет на похудение в среднем");
 
-            double mashaSalary = 67760;
-            double denisSalary = 83690;
-            double kristinaSalary = 76230;
-            double increaseRate = 0.10;
-            double mashaNewSalary = mashaSalary * (1 + increaseRate);
-            double denisNewSalary = denisSalary * (1 + increaseRate);
-            double kristinaNewSalary = kristinaSalary * (1 + increaseRate);
-            double mashaAnnualIncomeBefore = mashaSalary * 12;
-            double denisAnnualIncomeBefore = denisSalary * 12;
-            double kristinaAnnualIncomeBefore = kristinaSalary * 12;
-            double mashaAnnualIncomeAfter = mashaNewSalary * 12;
-            double denisAnnualIncomeAfter = denisNewSalary * 12;
-            double kristinaAnnualIncomeAfter = kristinaNewSalary * 12;
-            double mashaIncomeDifference = mashaAnnualIncomeAfter - mashaAnnualIncomeBefore;
-            double denisIncomeDifference = denisAnnualIncomeAfter - denisAnnualIncomeBefore;
-            double kristinaIncomeDifference = kristinaAnnualIncomeAfter - kristinaAnnualIncomeBefore;
-            System.out.println("Маша теперь получает " + mashaNewSalary + " рублей. Годовой доход вырос на " + mashaIncomeDifference + " рублей.");
-            System.out.println("Денис теперь получает " + denisNewSalary + " рублей. Годовой доход вырос на " + denisIncomeDifference + " рублей.");
-            System.out.println("Кристина теперь получает " + kristinaNewSalary + " рублей. Годовой доход вырос на " + kristinaIncomeDifference + " рублей.");
 
             int mashaCurrentSalaryPerMonth = 67760;
             int denisSalaryCurrentPerMonth = 83690;
@@ -148,54 +139,6 @@ public class Main {
             System.out.println(amountOf10PercentOfMashaCurrentSalary);
             System.out.println(amountOf10PercentOfDenisCurrentSalary);
             System.out.println(amountOf10PercentOfChristinaCurrentSalary);
-
-
-            float mashaSalaryPerMonthAfterTheIncrease =  mashaCurrentSalaryPerMonth  +  amountOf10PercentOfMashaCurrentSalary;            ;
-            float denisSalaryPerMonthAfterTheIncrease =  denisSalaryCurrentPerMonth  +   amountOf10PercentOfDenisCurrentSalary;
-            float christinaSalaryPerMonthAfterTheIncrease = christinaSalaryCurrentPerMonth + amountOf10PercentOfChristinaCurrentSalary;
-            System.out.println("Месячная зарплата сотрудников после повышения: Маши, Дениса, Кристины соответсвенно");
-            System.out.println(mashaSalaryPerMonthAfterTheIncrease);
-            System.out.println(denisSalaryPerMonthAfterTheIncrease);
-            System.out.println(christinaSalaryPerMonthAfterTheIncrease);
-
-
-            byte month = 12;
-            double AnnualIncomeOfMashaAfterTheIncrease = mashaSalaryPerMonthAfterTheIncrease * month;
-            double AnnualIncomeOfDenisAfterTheIncrease = denisSalaryPerMonthAfterTheIncrease * month;
-            double AnnualIncomeOfChristinaAfterTheIncrease = christinaSalaryPerMonthAfterTheIncrease * month;
-            System.out.println("Годовая зарплата сотрудников после повышения: Маши, Дениса, Кристины соответсвенно");
-            System.out.println(AnnualIncomeOfMashaAfterTheIncrease);
-            System.out.println(AnnualIncomeOfDenisAfterTheIncrease);
-            System.out.println(AnnualIncomeOfChristinaAfterTheIncrease);
-
-
-
-            int MashaAnnualIncomeBeforeTheIncrease = mashaCurrentSalaryPerMonth * month;
-            int DenisAnnualIncomeBeforeTheIncrease = denisSalaryCurrentPerMonth *   month;
-            int ChristinaAnnualIncomeBeforeTheIncrease = christinaSalaryCurrentPerMonth * month;
-            System.out.println("Годовая зарплата сотрудников до повышения: Маши, Дениса, Кристины соответсвенно");
-            System.out.println(MashaAnnualIncomeBeforeTheIncrease);
-            System.out.println(DenisAnnualIncomeBeforeTheIncrease);
-            System.out.println(ChristinaAnnualIncomeBeforeTheIncrease);
-
-            System.out.println("Разница между годовыми зарплатами сотрудников до повышения и после: Маши, Дениса, Кристины соответсвенно");
-            double differenceBetweenMashaAnnualSalaryBeforeThePromotionAndAfter = AnnualIncomeOfMashaAfterTheIncrease - MashaAnnualIncomeBeforeTheIncrease;
-            double differenceBetweenDenisAnnualSalaryBeforeThePromotionAndAfter = AnnualIncomeOfDenisAfterTheIncrease - DenisAnnualIncomeBeforeTheIncrease;
-            double differenceBetweenChristinaAnnualSalaryBeforeThePromotionAndAfter = AnnualIncomeOfChristinaAfterTheIncrease - ChristinaAnnualIncomeBeforeTheIncrease;
-            System.out.println(differenceBetweenMashaAnnualSalaryBeforeThePromotionAndAfter);
-            System.out.println(differenceBetweenDenisAnnualSalaryBeforeThePromotionAndAfter);
-            System.out.println(differenceBetweenChristinaAnnualSalaryBeforeThePromotionAndAfter);
-
-            System.out.println("Маша теперь получает " + mashaSalaryPerMonthAfterTheIncrease + " рублей в месяц. " +
-                    "Годовой доход вырос на " + differenceBetweenMashaAnnualSalaryBeforeThePromotionAndAfter +" рублей. " );
-            System.out.println("Денис теперь получает " +  denisSalaryPerMonthAfterTheIncrease + " рублей в месяц. " +
-                    "Годовой доход вырос на " + differenceBetweenDenisAnnualSalaryBeforeThePromotionAndAfter +" рублей." );
-            System.out.println("Кристина теперь получает " + christinaSalaryPerMonthAfterTheIncrease + " рублей в месяц. " +
-                    "Годовой доход вырос на " +  differenceBetweenChristinaAnnualSalaryBeforeThePromotionAndAfter +" рублей." );
-
-
-
-
         }
     }
 }
