@@ -194,6 +194,7 @@ public class Main {
                     "Годовой доход вырос на " +  differenceBetweenChristinaAnnualSalaryBeforeThePromotionAndAfter +" рублей." );
 
 
+
         }
     }
 }
