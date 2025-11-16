@@ -71,9 +71,9 @@ public class Main {
 
 
 
-            Byte  totalNumberOfPaintCansForClasses = 120;
-            Byte quantityOfWhitePaintPerClass=2;
-            Byte quantityOfBrownPaintPerClass =4;
+            byte  totalNumberOfPaintCansForClasses = 120;
+            byte quantityOfWhitePaintPerClass=2;
+            byte quantityOfBrownPaintPerClass =4;
             int  totalNumberOfPaintCansPerOneClass =  quantityOfWhitePaintPerClass + quantityOfBrownPaintPerClass;
             int  numberOfClasses = totalNumberOfPaintCansForClasses  /  totalNumberOfPaintCansPerOneClass;
             int  totalAmountOfWhitePaintForAllClasses=   numberOfClasses  *   quantityOfWhitePaintPerClass;
@@ -83,19 +83,19 @@ public class Main {
 
 
 
-            Byte bananas = 5;
-            Byte gramsInOneBanana = 80;
+            byte bananas = 5;
+            byte gramsInOneBanana = 80;
 
             short milk = 200;
-            Byte halfServingOfMilk = 100;
-            Byte gramsIn100MillilitersOfMilk = 105;
+            byte halfServingOfMilk = 100;
+            byte gramsIn100MillilitersOfMilk = 105;
             int amountOfMilkNeeded = milk/halfServingOfMilk;
 
-            Byte IceCreamBriquettes = 2;
-            Byte oneBriquetteOfFrozenGrams=100;
+            byte IceCreamBriquettes = 2;
+            byte oneBriquetteOfFrozenGrams=100;
 
-            Byte rawEggs = 4;
-            Byte numberOfGramsInOneRawEgg = 70;
+            byte rawEggs = 4;
+            byte numberOfGramsInOneRawEgg = 70;
 
             int numberOfGramsInFiveBananas = bananas * gramsInOneBanana;
             int numberOfGramsIn200MlOfMilk = amountOfMilkNeeded * gramsIn100MillilitersOfMilk;
@@ -110,7 +110,7 @@ public class Main {
             System.out.println("Вес (количество килограммов) такого спортзавтрака составляет " + totalKgInBreakfast  + " килограмм");
 
 
-            Byte  totalNumberOfKgForWeightLoss =7;
+            byte  totalNumberOfKgForWeightLoss =7;
             short totalNumberOfGramsInKilogram = 1000;
             int totalGramsForWeightLoss = 7*1000;
             short firstWayToLoseWeight = 250;
